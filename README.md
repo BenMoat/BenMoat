@@ -3,8 +3,8 @@ What I am currently working on 🔨...
 # VinMind
 
 VinMind is a web application designed for the management of one or more vehicles. It focuses on tracking vehicle modifications, insurance, tax and MOT.
-
-## Tech Stack
+<details>
+<summary><h2>Tech Stack</h2></summary>
 
 ### Frontend
 
@@ -23,7 +23,10 @@ VinMind is a web application designed for the management of one or more vehicles
 ### Authentication
 - **[Clerk](https://clerk.com/)**: Integrated for user authentication and session management.
 
-# Features
+</details>
+  
+<details>
+<summary><h2>Features</h2></summary>
 
 ## Vehicle Overview
 
@@ -69,7 +72,9 @@ For some reason, people prefer light mode so I reluctantly added this option:
 ![light-dark-mode](https://github.com/BenMoat/BenMoat/assets/43743754/61c2fffc-f803-484e-b2af-9004a81fc21e)
 > It is automatically set depending on your system theme, however, you can change the web app's theme at any time and your preference will be retained. 
 
-# Project Chronology
-## Technical Documentation During Project Creation
+</details>
+
+## Project Chronology
+### Technical Documentation During Project Creation
 If you're a true neckbeard, you can read through how I began developing this application here: https://1drv.ms/u/s!AmL6ph_olh5BlrJ-VBDoD6iCUCrrhQ?e=lCjA5c <br>
 ⚠️ It is best read in a Markdown editor. 
