@@ -50,10 +50,11 @@ Display a list of modifications with multiple ways of filtering them:
 ![modifications](https://github.com/BenMoat/BenMoat/assets/43743754/e593147f-e5cb-4fec-adb6-d4205f98f37f)
 > The user has 17 modifications all with either one or more attachments, as highlighted by the Files column. He sure knows how to waste money.
 
-</br>
+### Responsiveness
+Recently, I have been working on making the site more mobile-friendly: 
 
 ![modifications-mobile](https://github.com/BenMoat/BenMoat/assets/43743754/12fbf792-e2c3-4d39-9eb6-6a31063103ff)
-> The app has been made fully mobile responsive with expensive of the developer's remaining sanity. 
+> The app has been made fully mobile-responsive with the expensive of the developer's remaining sanity. 
 
 ### Modification
 Invoices or any relevant files related to the modification can be attached:
