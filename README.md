@@ -93,14 +93,13 @@ The insurance is dependant on the user manually inputting the data. This still f
 For some reason, some people _(who I do not want to be associated with)_ prefer light mode so I reluctantly added this option:
 ![light-dark-mode](https://github.com/BenMoat/BenMoat/assets/43743754/100b6abe-4f85-4697-b0b8-fc75e3346cb1)
 
+> It is automatically set depending on your system theme, however, you can change the web app's theme **TO DARK MODE** at any time and your preference will be retained. Thank you for making the right decision. 
+
 ## Accessibility
 Although I am not directly affected by a website's command of accessible features, I think it should be an absolute priority to make every website easily accessible to everyone. 
 93% is the lowest score from a page on this web app... for now. 
 
 ![accessibility](https://github.com/BenMoat/BenMoat/assets/43743754/a05edefc-4791-4ade-a6c9-48ff24486c62)
-
-
-> It is automatically set depending on your system theme, however, you can change the web app's theme **TO DARK MODE** at any time and your preference will be retained. Thank you for making the right decision. 
 
 </details>
 
