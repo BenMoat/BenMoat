@@ -2,7 +2,7 @@ What I am currently working on 🔨...
 
 # VinMind
 
-VinMind is a web application designed for the management of one or more vehicles. It focuses on tracking vehicle modifications, insurance, tax and MOT.
+VinMind is a web application designed for the management of one or more vehicles. It focuses on keeping track of vehicle modifications, insurance, servicing, tax and MOT.
 <details>
 <summary><h2>Tech Stack</h2></summary>
 
@@ -31,11 +31,16 @@ VinMind is a web application designed for the management of one or more vehicles
 ## Vehicle Overview
 
 This tab provides an overview of your vehicle's data, depending on how you have populated the vehicle's information in the web app: 
-![overview](https://github.com/BenMoat/BenMoat/assets/43743754/761352eb-feca-467a-8167-de13118bcd82)
+![overview](https://github.com/BenMoat/BenMoat/assets/43743754/0e3c9988-c43d-4e9d-8daa-108b7a2e0ad7)
 
 > This screenshot shows a vehicle where the user has opted to input their reg to retrieve their tax and MOT status via the DVLA RES API.
 > The user has also supplied a comprehensive list of modifications added to their vehicle.
 > This provides the user with a daily reminder of how much money they have ~~wasted~~ *spent on modifications. 💸
+
+### Card Visibility Menu
+A card menu has now been added, allowing the user to show or hide cards on the Overview tab. This is independently configurable for each vehicle:
+![card-menu](https://github.com/BenMoat/BenMoat/assets/43743754/9e5fef95-97ed-4bbf-8ca4-06af606c719e)
+> I know you want to hide the total costs of the modifications. You're welcome.
 
 ## Vehicle Switcher 
 Seamlessly switch between any vehicle at any time, or add a new vehicle to your garage: 
@@ -47,18 +52,14 @@ Seamlessly switch between any vehicle at any time, or add a new vehicle to your 
 ## Modifications 
 
 Display a list of modifications with multiple ways of filtering them: 
-![modifications](https://github.com/BenMoat/BenMoat/assets/43743754/e593147f-e5cb-4fec-adb6-d4205f98f37f)
+![modifications](https://github.com/BenMoat/BenMoat/assets/43743754/166dcaa3-edc8-4066-af9e-2987bf7e5fbc)
 > The user has 17 modifications all with either one or more attachments, as highlighted by the Files column. He sure knows how to waste money.
-
-### Responsiveness
-Recently, I have been working on making the site more mobile-friendly: 
-
-![modifications-mobile](https://github.com/BenMoat/BenMoat/assets/43743754/12fbf792-e2c3-4d39-9eb6-6a31063103ff)
-> The app has been made fully mobile-responsive with the expensive of the developer's remaining sanity. 
+> You thought you could escape the total cost of your modifications, didn't you. 
 
 ### Modification
 Invoices or any relevant files related to the modification can be attached:
-![modification](https://github.com/BenMoat/BenMoat/assets/43743754/a255b5a1-5654-424e-bb69-ef12a40c332b)
+![modification](https://github.com/BenMoat/BenMoat/assets/43743754/36268ce6-815b-4052-a35a-53d93bb2b16f)
+
 > The user has created a non-obsolete modification and has attached torque spec instructions that they are highly unlikely to follow. 
 
 ## Modification Types
@@ -66,13 +67,30 @@ Catergorise your modifications by what type they are: exterior, interior, perfor
 ![modification-types](https://github.com/BenMoat/BenMoat/assets/43743754/2142bd1c-b683-4b13-9edf-d94ba49c894e)
 > The user is able to see all related modifications to this type. They are able to click on one to view or edit it. I don't have a shit joke for this one, sorry. 
 
+## Servicing
+Keep track of your vehicle's service history. If the user has added more than one service, it will display the mileage and time in between each service in an 
+intermediate card:
+
+![servicing](https://github.com/BenMoat/BenMoat/assets/43743754/a0d93064-b7c6-477c-9491-a6666572c999)
+
 ## Settings 
 Change your vehicle's name, supply the registration number or delete data associated with this vehicle:
-![settings](https://github.com/BenMoat/BenMoat/assets/43743754/d3b16bcc-59ff-4c25-8377-e3a2cd3c129e)
+![settings](https://github.com/BenMoat/BenMoat/assets/43743754/2e583946-a37d-45ca-b6c7-53c73abf5d71)
 
 > The user can change their vehicle's name or delete the vehicle entirely at any time.
 > Protection features are built in so a user cannot delete all modification types unless there are no modifications associated with that type. 
 > The developer wants to ensure you that he **definitely, 100%, no cap on a stack, did not** do this multiple times throughout development.  
+
+## Responsiveness
+Recently, I have been working on making the site more mobile-friendly, including adding a Burger Menu for smaller devices:
+
+![menu-mobile](https://github.com/BenMoat/BenMoat/assets/43743754/3bd88434-98bc-4865-9e5b-b527c29c34c8)
+
+![overvew-mobile](https://github.com/BenMoat/BenMoat/assets/43743754/531f8174-b3b9-42b9-8b5b-f4933075737d)
+
+![modifications-mobile](https://github.com/BenMoat/BenMoat/assets/43743754/8a974b9b-0ef9-40da-88f7-b5737700416d)
+
+> The app has been made fully mobile-responsive with the expensive of the developer's remaining sanity. 
 
 ## Tax, MOT and Insurance
 Mistakenly, the government trusted me with some API keys. <br>
@@ -83,7 +101,7 @@ To avoid getting 429'd, a request is only sent to the RES API if the user has **
 ![last-updated-badge](https://github.com/BenMoat/BenMoat/assets/43743754/22695da7-92d4-46d4-9fe5-6d964cb88173)
 > The user is able to see how recent the tax and MOT status is by clicking on the question mark icon. 
 
-The insurance is dependant on the user manually inputting the data. This still follows the same principal of calling an api once evert 24 hours to ensure its reflecting the correct data. In this instance, the API is called to determine whether to update the insurance status as "Insured" or "Not Insured":
+The insurance is dependant on the user manually inputting the data. This still follows the same principal of calling an api once every 24 hours to ensure its reflecting the correct data. In this instance, the API is called to determine whether to update the insurance status as "Insured" or "Not Insured":
 
 ![insurance-reminder](https://github.com/BenMoat/BenMoat/assets/43743754/9e74f2ee-7841-4eef-9cb9-4fccd084bd39)
 ![insurance-card](https://github.com/BenMoat/BenMoat/assets/43743754/2e367eb6-9397-4818-af81-79723141ec98)
