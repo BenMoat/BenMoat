@@ -31,7 +31,7 @@ VinMind is a web application designed for the management of one or more vehicles
 ## Vehicle Overview
 
 This tab provides an overview of your vehicle's data, depending on how you have populated the vehicle's information in the web app: 
-![overview](https://github.com/BenMoat/BenMoat/assets/43743754/0e3c9988-c43d-4e9d-8daa-108b7a2e0ad7)
+![overview](https://github.com/BenMoat/BenMoat/assets/43743754/13cfc8b6-34c4-4a3b-8114-db89a304eca4)
 
 > This screenshot shows a vehicle where the user has opted to input their reg to retrieve their tax and MOT status via the DVLA RES API.
 > The user has also supplied a comprehensive list of modifications added to their vehicle.
@@ -39,7 +39,7 @@ This tab provides an overview of your vehicle's data, depending on how you have 
 
 ### Card Visibility Menu
 A card menu has now been added, allowing the user to show or hide cards on the Overview tab. This is independently configurable for each vehicle:
-![card-menu](https://github.com/BenMoat/BenMoat/assets/43743754/9e5fef95-97ed-4bbf-8ca4-06af606c719e)
+![card-menu](https://github.com/BenMoat/BenMoat/assets/43743754/fa10d425-d0dc-45b8-8ee6-0decbf26b3e0)
 > I know you want to hide the total costs of the modifications. You're welcome.
 
 ## Vehicle Switcher 
