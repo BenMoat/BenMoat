@@ -6,6 +6,10 @@ What I am currently working on 🔨...
 
 ![landing](https://github.com/BenMoat/vin-mind/assets/43743754/74801cbd-3ed4-4a05-9cc1-b2e3e3b9a2e7)
 
+#### Design Engineer ▲ @Vercel and Creator of [Shadcn/UI](https://ui.shadcn.com/)
+
+![x](https://github.com/BenMoat/BenMoat/assets/43743754/5047a0ae-f1a6-4629-ab03-7c98bbded22e)
+
 <details>
 <summary><h2>Tech Stack</h2></summary>
 
