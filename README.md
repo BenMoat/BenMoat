@@ -4,7 +4,7 @@ What I am currently working on 🔨...
 
 ### VinMind is a web application designed for the management of one or more vehicles. It focuses on keeping track of vehicle modifications, insurance, servicing, tax and MOT.
 
-![landing](https://github.com/BenMoat/vin-mind/assets/43743754/74801cbd-3ed4-4a05-9cc1-b2e3e3b9a2e7)
+![landing](https://github.com/user-attachments/assets/06bb96ce-043a-45e3-b62f-ce3a395cee52)
 
 #### Design Engineer ▲ @Vercel and Creator of [Shadcn/UI](https://ui.shadcn.com/)
 
@@ -38,7 +38,8 @@ What I am currently working on 🔨...
 ## Vehicle Overview
 
 This tab provides an overview of your vehicle's data, depending on how you have populated the vehicle's information in the web app: 
-![overview](https://github.com/BenMoat/vin-mind/assets/43743754/f17c6fd4-a1ef-40b8-a6b9-545f6d0d6c86)
+![overview](https://github.com/user-attachments/assets/eab80755-3a94-4ef0-b38f-06e43a4c6519)
+
 > This screenshot shows a vehicle where the user has opted to input their reg to retrieve their tax and MOT status via the DVLA RES API.
 > The user has also supplied a comprehensive list of modifications added to their vehicle.
 > This provides the user with a daily reminder of how much money they have ~~wasted~~ *spent on modifications. 💸
@@ -54,7 +55,9 @@ Switch between light and dark mode at any time and your preference will be retai
 
 ## Card Visibility Menu
 A card menu has now been added, allowing the user to show or hide cards on the Overview tab. This is independently configurable for each vehicle:
-![card-menu](https://github.com/BenMoat/vin-mind/assets/43743754/2f26cfaf-55c5-49db-a3c1-44500e033f0d)
+![card-menu](https://github.com/user-attachments/assets/a5877df0-62f4-4f5b-8a6e-e4868e962564)
+![card-menu-2](https://github.com/user-attachments/assets/85592150-7bb9-4881-b7b3-3d2931860da4)
+
 > I know you want to hide the total costs of the modifications. You're welcome.
 
 ## Vehicle Switcher 
@@ -99,7 +102,7 @@ Recently, I have been working on making the site more mobile-friendly, including
 
 ![menu-mobile](https://github.com/BenMoat/BenMoat/assets/43743754/3bd88434-98bc-4865-9e5b-b527c29c34c8)
 
-![overvew-mobile](https://github.com/BenMoat/BenMoat/assets/43743754/531f8174-b3b9-42b9-8b5b-f4933075737d)
+![overview-mobile](https://github.com/user-attachments/assets/fb25fdd5-c5b5-4501-b5bb-c0cc60b0c22b)
 
 ![modifications-mobile](https://github.com/BenMoat/BenMoat/assets/43743754/8a974b9b-0ef9-40da-88f7-b5737700416d)
 
@@ -111,13 +114,14 @@ Enter your vehicle's registration number to view its up-to-date tax and MOT stat
 
 To avoid getting 429'd, a request is only sent to the RES API if the user has **added/changed** their registration or it has been **24 hours** since the API was last called:
 
-![last-updated-badge](https://github.com/BenMoat/BenMoat/assets/43743754/22695da7-92d4-46d4-9fe5-6d964cb88173)
+![last-updated-badge](https://github.com/user-attachments/assets/41669cf3-013d-4939-a728-2d8981b5309c)
+
 > The user is able to see how recent the tax and MOT status is by clicking on the question mark icon. 
 
 The insurance is dependant on the user manually inputting the data. This still follows the same principal of calling an api once every 24 hours to ensure its reflecting the correct data. In this instance, the API is called to determine whether to update the insurance status as "Insured" or "Not Insured":
 
 ![insurance-reminder](https://github.com/BenMoat/BenMoat/assets/43743754/9e74f2ee-7841-4eef-9cb9-4fccd084bd39)
-![insurance-card](https://github.com/BenMoat/BenMoat/assets/43743754/2e367eb6-9397-4818-af81-79723141ec98)
+![insurance-card](https://github.com/user-attachments/assets/83751787-70d0-438a-9832-033c6b5a9262)
 
 > Now the 89 year old Margret can eagerly await to pay £4300 on her 2003 Micra. 
 
