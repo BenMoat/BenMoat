@@ -1,17 +1,17 @@
 What I am currently working on 🔨...
 
-# VinMind
+<h1 align="center">VinMind</h1>
 
 ### VinMind is a web application designed for the management of one or more vehicles. It focuses on keeping track of vehicle modifications, insurance, servicing, tax and MOT.
 
 ![landing](https://github.com/user-attachments/assets/06bb96ce-043a-45e3-b62f-ce3a395cee52)
-
+___
 #### Design Engineer ▲ @Vercel and Creator of [Shadcn/UI](https://ui.shadcn.com/)
-
-![x](https://github.com/BenMoat/BenMoat/assets/43743754/5047a0ae-f1a6-4629-ab03-7c98bbded22e)
+![chadcn](https://github.com/user-attachments/assets/b712b495-6043-4da4-9cb5-cdec7bda24e0)
+___
 
 <details>
-<summary><h2>Tech Stack</h2></summary>
+<summary><h1>Tech Stack</h1></summary>
 
 ### Frontend
 
@@ -33,32 +33,49 @@ What I am currently working on 🔨...
 </details>
   
 <details>
-<summary><h2>Features</h2></summary>
+<summary><h1>Features</h1></summary>
 
 ## Vehicle Overview
 
 This tab provides an overview of your vehicle's data, depending on how you have populated the vehicle's information in the web app: 
-![overview](https://github.com/user-attachments/assets/eab80755-3a94-4ef0-b38f-06e43a4c6519)
+![overview](https://github.com/user-attachments/assets/755243d2-7663-410f-9ba4-9af1bec4896f)
 
 > This screenshot shows a vehicle where the user has opted to input their reg to retrieve their tax and MOT status via the DVLA RES API.
 > The user has also supplied a comprehensive list of modifications added to their vehicle.
 > This provides the user with a daily reminder of how much money they have ~~wasted~~ *spent on modifications. 💸
 
 Here is how a newly-added vehicle will look:
-![overview-new](https://github.com/BenMoat/vin-mind/assets/43743754/1ada6fac-6473-4c49-bd33-26b8c9a44256)
+![overview-new](https://github.com/user-attachments/assets/dceb66fa-0570-4459-8a31-ad99705f1e91)
 
 ## Light and Dark Mode:
 Switch between light and dark mode at any time and your preference will be retained. 
-![light-dark-mode](https://github.com/BenMoat/vin-mind/assets/43743754/6f6d2b17-a34a-48c9-bf30-25f165a3dd68)
+![dashboard-light-dark](https://github.com/user-attachments/assets/715708c5-bb9a-4859-9d04-8d4b3cc33c82)
 
 > It is automatically set depending on your system theme. 
 
 ## Card Visibility Menu
 A card menu has now been added, allowing the user to show or hide cards on the Overview tab. This is independently configurable for each vehicle:
-![card-menu](https://github.com/user-attachments/assets/a5877df0-62f4-4f5b-8a6e-e4868e962564)
-![card-menu-2](https://github.com/user-attachments/assets/85592150-7bb9-4881-b7b3-3d2931860da4)
+![card-menu](https://github.com/user-attachments/assets/f26fb208-dd1a-479b-87d4-e94e2713727c)
 
 > I know you want to hide the total costs of the modifications. You're welcome.
+
+## Notification Center
+Get reminders of when your Tax, MOT, Servicing and Insurance is due. 
+
+Each reminder is colour-coded and prioritised by the due date, with the main notification's dot colour set by this:
+
+- 🟢 Due within 30 days.
+
+- 🟠 Due within 7 days.
+
+- 🔴 Due today/Overdue.
+
+![notifications](https://github.com/user-attachments/assets/7eba8550-de6a-4b4e-96d0-7d9062b2ca54)
+![notifications-read](https://github.com/user-attachments/assets/958a828d-f4ce-4bd4-a3ca-44c53d2d47d1)
+
+> Notifications can be dismissed individually or all at once by either clicking on `Mark as Read` when hovering over the message, or `Mark all as Read` at the top of the notification center.
+> For data housekeeping, each message, both Read and Unread has an expiry date of 30 days where the message will automatically be deleted. 
+
 
 ## Vehicle Switcher 
 Seamlessly switch between any vehicle at any time, or add a new vehicle to your garage: 
@@ -70,29 +87,34 @@ Seamlessly switch between any vehicle at any time, or add a new vehicle to your 
 ## Modifications 
 
 Display a list of modifications with multiple ways of filtering them: 
-![modifications](https://github.com/BenMoat/BenMoat/assets/43743754/166dcaa3-edc8-4066-af9e-2987bf7e5fbc)
-> The user has 17 modifications all with either one or more attachments, as highlighted by the Files column. He sure knows how to waste money.
+![modifications](https://github.com/user-attachments/assets/d8d6b106-57ff-4423-9b47-eb39f5dd8b13)
+
+> The user has 18 modifications all with either one or more attachments, as highlighted by the Files column. He sure knows how to waste money.
 > You thought you could escape the total cost of your modifications, didn't you. 
 
 ### Modification
 Up to three Invoices or any relevant files related to the modification can be attached:
-![modification](https://github.com/BenMoat/vin-mind/assets/43743754/e5f6f657-1b78-4883-9fd0-7e847613a5ce)
+![modification](https://github.com/user-attachments/assets/4d7ffd97-d594-4ceb-ae8c-c493bdbba0a0)
+
 > The user has created a non-obsolete modification and has attached a user guide to help brick their ECU. 
 
 ## Modification Types
 Catergorise your modifications by what type they are: exterior, interior, performance etc:
-![modification-types](https://github.com/BenMoat/BenMoat/assets/43743754/2142bd1c-b683-4b13-9edf-d94ba49c894e)
+![modification-types](https://github.com/user-attachments/assets/44b35778-f02a-4147-b9a7-d7b287a9b75f)
+
 > The user is able to see all related modifications to this type. They are able to click on one to view or edit it. I don't have a shit joke for this one, sorry. 
 
 ## Servicing
 Keep track of your vehicle's service history. If the user has added more than one service, it will display the mileage and time in between each service in an 
 intermediate card:
 
-![servicing](https://github.com/BenMoat/BenMoat/assets/43743754/a0d93064-b7c6-477c-9491-a6666572c999)
+![servicing](https://github.com/user-attachments/assets/73318e0f-e7b4-4ee2-bf91-94836c159f34)
+
 
 ## Settings 
 Change your vehicle's name, supply the registration number or delete data associated with this vehicle:
-![settings](https://github.com/BenMoat/vin-mind/assets/43743754/d4187b5e-7108-4122-b986-e6b2f8d2d3fb)
+![settings](https://github.com/user-attachments/assets/e6cdf083-7c0c-4189-95d0-8fbe3e6c4f63)
+
 > The user can change their vehicle's name or delete the vehicle entirely at any time.
 > Protection features are built in so a user cannot delete all modification types unless there are no modifications associated with that type. 
 > The developer wants to ensure you that he **definitely, 100%, no cap on a stack, did not** do this multiple times throughout development.  
@@ -120,7 +142,8 @@ To avoid getting 429'd, a request is only sent to the RES API if the user has **
 
 The insurance is dependant on the user manually inputting the data. This still follows the same principal of calling an api once every 24 hours to ensure its reflecting the correct data. In this instance, the API is called to determine whether to update the insurance status as "Insured" or "Not Insured":
 
-![insurance-reminder](https://github.com/BenMoat/BenMoat/assets/43743754/9e74f2ee-7841-4eef-9cb9-4fccd084bd39)
+![insurance-reminder](https://github.com/user-attachments/assets/cf05cec0-64cc-4c6a-a0ec-7c24d214af96)
+
 ![insurance-card](https://github.com/user-attachments/assets/83751787-70d0-438a-9832-033c6b5a9262)
 
 > Now the 89 year old Margret can eagerly await to pay £4300 on her 2003 Micra. 
