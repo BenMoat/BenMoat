@@ -4,7 +4,8 @@ What I am currently working on 🔨...
 
 ### VinMind is a web application designed for the management of one or more vehicles. It focuses on keeping track of vehicle modifications, insurance, servicing, tax and MOT.
 
-![landing](https://github.com/user-attachments/assets/06bb96ce-043a-45e3-b62f-ce3a395cee52)
+![landing](https://github.com/user-attachments/assets/cb50fc99-8ec3-445b-a743-dfbbff5d89d1)
+
 ___
 #### Design Engineer ▲ @Vercel and Creator of [Shadcn/UI](https://ui.shadcn.com/)
 ![chadcn](https://github.com/user-attachments/assets/b712b495-6043-4da4-9cb5-cdec7bda24e0)
