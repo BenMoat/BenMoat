@@ -1,5 +1,5 @@
 <details>
-<summary><h3>What I am currently working on 🔨...</h3></summary>
+<summary><h3>What I am currently working on 🔨... (click me)</h3></summary>
 
 <h1 align="center">VinMind</h1>
 
