@@ -1,4 +1,5 @@
-What I am currently working on 🔨...
+<details>
+<summary><h3>What I am currently working on 🔨...</h3></summary>
 
 <h1 align="center">VinMind</h1>
 
@@ -161,3 +162,4 @@ Although I am not directly affected by a website's command of accessible feature
 ### Technical Documentation During Project Creation
 If you're a true neckbeard, you can read through how I began developing this application here: https://1drv.ms/u/s!AmL6ph_olh5BlrJ-VBDoD6iCUCrrhQ?e=lCjA5c <br>
 ⚠️ It is best read in a Markdown editor. 
+</details>
